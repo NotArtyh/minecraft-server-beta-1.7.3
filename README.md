@@ -17,6 +17,6 @@ The image can be modified as one may wish.
 
 Original inspiration from [CardosoDev04](https://github.com/cardosodev04/beta_1.7.3_minecraft_server_docker) and [bbuuttzzzz](https://github.com/bbuuttzzzz/beta_1.7.3_minecraft_server_docker) respectively the original and forked version of the project that inspired this one.
 
-Server image provided by [betacraft](https://betacraft.uk/server-archive/)
+`Server jar` provided by [betacraft](https://betacraft.uk/server-archive/)
 
-`jdk 8` image provided by [eclipse-temurin](https://hub.docker.com/_/eclipse-temurin)
+`jdk 8` base image provided by [eclipse-temurin](https://hub.docker.com/_/eclipse-temurin)
