@@ -5,7 +5,7 @@ A docker image for running a **Minecraft beta 1.7.3 server**
 The image allows to:
 - Bind a external volume to store the world on the host system
 - Configure a port binded to the default server port `25565`
-- [todo] Define a `server.properties` with the prefered settings
+- Define a `server.properties` with the prefered settings
 
 ## How to run
 
