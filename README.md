@@ -13,7 +13,7 @@ Build your image via `docker build -t <image-name>`
 
 The image can be modified as one may wish.
 
-### Mentions
+## Mentions
 
 Original inspiration from [CardosoDev04](https://github.com/cardosodev04/beta_1.7.3_minecraft_server_docker) and [bbuuttzzzz](https://github.com/bbuuttzzzz/beta_1.7.3_minecraft_server_docker) respectively the original and forked version of the project that inspired this one.
 
