@@ -1,0 +1,9 @@
+services:
+  server:
+    build: .
+    image: mc-server-b1.7.3:latest
+    ports:
+      - 25565:25565
+    volumes:
+      - world:/app/world
+    restart: unless-stopped
