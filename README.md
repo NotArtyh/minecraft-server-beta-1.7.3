@@ -11,7 +11,7 @@ The image allows to:
 
 For convience a `compose.yaml` with a default setup is provided. 
 
-Simply run `docker compose up -d` and the server will run generating a persistent docker volume with the world on the host system and building the image that this repo provides. One could expand the compose to integrate with systems like a reverse-proxy for public use o a vpn for a *private* setup. The image can then be stoped or simply remove the whole server setup via `docker compose down` but the world will be preserver as a docker volume.
+Simply run `docker compose up -d` and the server will run generating a persistent docker volume with the world on the host system and building the image that this repo provides. One could expand the compose to integrate with systems like a reverse-proxy for public use o a vpn for a *private* setup. The image can then be stoped or simply remove the whole server setup via `docker compose down` but the world will be preserved as a docker volume.
 
 If one preferes to just create and run the image independently then you can:
 
