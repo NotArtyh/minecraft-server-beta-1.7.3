@@ -7,3 +7,6 @@ services:
     volumes:
       - world:/app/world
     restart: unless-stopped
+
+volumes:
+  world:
