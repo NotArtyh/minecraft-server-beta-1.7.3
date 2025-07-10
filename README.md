@@ -1,4 +1,4 @@
-# Minecraft b1.7.3 server docker image
+# Minecraft b1.7.3 server docker
 
 A docker image for running a **Minecraft beta 1.7.3 server**
 
@@ -9,9 +9,18 @@ The image allows to:
 
 ## How to run
 
-Build your image via `docker build -t <image-name>`
+For convience a `compose.yaml` with a default setup is provided. 
 
-The image can be modified as one may wish.
+Simply run `docker compose up -d` and the server will run generating a persistent docker volume with the world on the host system and building the image that this repo provides. One could expand the compose to integrate with systems like a reverse-proxy for public use o a vpn for a *private* setup. The image can then be stoped or simply remove the whole server setup via `docker compose down` but the world will be preserver as a docker volume.
+
+If one preferes to just create and run the image independently then you can:
+
+- Build your image via `docker build -t <image-name:tag>`
+- [optional] Create your own persistent volume so that the world is stored when the container gets deleted by running `docker volume create <world>`
+- Run the image via `docker run -d -v <volume>:/app/world -p <dinded-external-ports>:25565 --name <container-name> <image-name:tag>`
+
+**[note]** 
+The result is virtually the same amongst the two options, the first just streamlines the integration and process but as you don't usually create a server every hour you can simply rely on the manual aproach.
 
 ## Mentions
 
